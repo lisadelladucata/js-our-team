@@ -1,0 +1,79 @@
+/*----------------
+    RESET
+------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*----------------
+    LAYOUT
+------------------*/
+.container {
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+/*----------------
+    TYPOGRAPHY
+------------------*/
+
+body {
+    font-family: "Fredoka", sans-serif;
+}
+
+/*----------------
+    HEADER
+------------------*/
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #E53170;
+    padding: 30px 0px;
+}
+
+header p {
+    font-size: 17px;
+    padding: 30px 0px;
+}
+
+/*----------------
+    MAIN
+------------------*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    width: 30%;
+    background-color: black;
+}
+
+.col img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.col h3 {
+    font-size: 1.4em;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.col p {
+    font-size: 1.1em;
+    color:#6ECBF2;
+}
+
+.col p:first-of-type{
+    color: #fff;
+}
